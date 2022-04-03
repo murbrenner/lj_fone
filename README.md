@@ -17,3 +17,25 @@
 ```
 <a href="http://www.google.com.br">Busca</a>
 ```
+
+# CSS
+
+é uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
+
+`float` = puxa o elemento pra frente, e automaticamente eles ficam na mesma linha;
+
+- o outro elemento de baixo vem pra trás;
+- no float o texto nao é escondido.
+- o tamanho começa a respeitar o tamanho do conteudo apenas, deserdando do pai.
+
+`overflow` = recalcula o contexto;
+
+- hidden - faz o pai reconsiderar os filhos;
+
+`margin` - rspiro externo;
+
+`padding` - respiro interno;
+
+`padding/margin` - para ambos, pode-se utilizar de 1 a 4 variaveis, sempre respeitando o sentido horario, exceto para a de 2 variaveis, que fica top/left e right/bottom.
