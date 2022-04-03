@@ -69,3 +69,28 @@ define `width` e `height` tranquilo;
 `transform: translateX(+-XX%);` - "remove" a porcentagem para a centralizacao do elemento alinhado pelo `top bootom left e right` do comando anterior.
 
 `div` = divisão visual de conteúdo. pode ajudar a organizar utilizando com algumas "class" no html.
+
+`MDN` - site para consultar duvidas de valores para html.
+
+- link: https://developer.mozilla.org/pt-BR/
+
+`vertical align` - funciona com `display: inline-block` (um do lado do outro). o padrao é `baseline` (vertical-align: baseline;)
+
+- é permitido colocar top, bottom, left e right para manipular as referencias e resetar posicoes.
+
+`box-sizing: border-box` - o padrao é `content box`.
+
+- pra fazer a borda se tornar parte da "caixa" coloca-se `border-box`
+- isso implica no line height pq vai somar com a borda após isso.
+
+No `HTML` toda classe que começa com "-" é uma variação. Precisa de uma base e dps dessa base add um recurso que vai fazer a diferença da base.
+
+- No `CSS` fica ".-second" para chamar uma classe variante de outra.
+
+`SELETOR E` - Pra fazer com q o `CSS` entenda e tenha pré-requisitos pra carregar uma classe pode-se digitar `.button-store.-second` onde button store e second sao requisitos para q aquela config do CSS funcione. se nao tiver qqr uma delas, a config nao funciona. alem disso vc pode criar outra classe "-second" e apenas usar esse estilo de pre-requisitar a outra para q funcione especificamente nessa second criada dps.
+
+`<dl> - description list` = usada para descrição de produtos em sites, a descrição completa.
+
+`<dt> - description title` = usada para descrição de produtos em sites, especificamente para TÍTULOS, o inicio de tudo.
+
+`<dd> - define description` = definicao do que esta sendo escrito.
